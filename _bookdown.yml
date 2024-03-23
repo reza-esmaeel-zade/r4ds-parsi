@@ -1,0 +1,13 @@
+book_filename: "R برای دانشمندان داده به پارسی"
+new_session: true
+before_chapter_script: _common.R
+delete_merged_file: true
+rmd_files: [
+  "index.rmd",
+  ]
+language:
+  label:
+    fig: "تصویر "
+    tab: "جدول "
+  ui:
+    chapter_name: "فصل "

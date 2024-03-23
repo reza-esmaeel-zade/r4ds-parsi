@@ -1,0 +1,7 @@
+bookdown::bs4_book:
+  template: "./template/bs4_book.html"
+  direction: rtl
+  css: style.css
+  theme:
+    primary: "#096B72"
+  repo: https://github.com/reza-esmaeel-zade/r4ds-parsi

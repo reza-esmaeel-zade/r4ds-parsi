@@ -1,0 +1,95 @@
+@font-face{
+  font-family: 'vazirmatn';
+  src: 
+    url('fonts/Vazirmatn-Regular.woff2') format('woff2'),
+    url('fonts/Vazirmatn-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+  font-family: 'vazirmatn';
+  src: 
+    url('fonts/Vazirmatn-Medium.woff2') format('woff2'),
+    url('fonts/Vazirmatn-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face{
+  font-family: 'vazirmatn';
+  src: 
+    url('fonts/Vazirmatn-Bold.woff2') format('woff2'),
+    url('fonts/Vazirmatn-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+p.caption {
+  color: #777;
+  margin-top: 10px;
+}
+p code {
+  white-space: inherit;
+}
+pre {
+  word-break: normal;
+  word-wrap: normal;
+}
+pre code {
+  white-space: inherit;
+}
+.book .book-body .page-wrapper .page-inner {
+  direction: rtl;
+}
+.row{
+  flex-direction: row-reverse;
+}
+header{
+  direction: rtl;
+  text-align: right;
+}
+main{
+  direction: rtl;
+  text-align: right;
+}
+nav{
+  direction: rtl;
+  text-align: right;
+}
+pre{
+  direction: ltr !important;
+  text-align: left !important;
+}
+caption{
+  direction: rtl;
+  text-align: right;
+  font-family: 'vazirmatn';
+}
+p.caption{
+  direction: rtl;
+  text-align: right;
+}
+footer{
+  direction: rtl;
+  text-align: right;
+}
+#search{
+  direction: rtl;
+  text-align: right;
+  font-family: 'vazirmatn';
+}
+p {
+  font-family: 'vazirmatn';
+}
+h1 {
+  font-family: 'vazirmatn';
+  font-weight: bold;
+}
+h2 {
+  font-family: 'vazirmatn';
+  font-weight: 500;
+}
+li a, li a.nav-link{
+  font-family: 'vazirmatn';
+}
+div.prev, div.next, table{
+  font-family: 'vazirmatn';
+}
